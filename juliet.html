@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/juliet.css">
+</head>
+
+<body id="home" class="open-left">
+    <div id="offcanvas-left" class="hide">
+        <ul>
+            <li><a href="#top">Top </a></li>
+            <li><a href="#me">About Me </a></li>
+            <li><a href="#form">What Should I Do Next</a></li>
+
+        </ul>
+    </div>
+    <div class="togglebar">
+        <!-- adds the class of hide to .offcanvas.left -->
+        <div class="toggle" onclick="toggleLeft()">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+    <div class="center">
+        <header>
+            All About Juliet
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#top">Top </a></li>
+                <li><a href="#me">About Me </a></li>
+                <li><a href="#form">What Should I Do Next</a></li>
+            </ul>
+        </nav>
+        <section>
+            <main id="top">
+                <article>
+                    <figure>
+                        <img src="img/clark_headshot.jpg"
+                            alt="A laptop with a mouse on a desk and a pair of glasses." />
+                        <figcaption>
+                            Juliet Yznaga Cheesing for the Camera
+                        </figcaption>
+                    </figure>
+                    <h2 style="font-size: 3em" id="me">Who am I?</h2>
+                    <hr>
+                    <p>
+                        I am an Engineering student at Duke University. I am from Austin, Texas so I enjoy cooking Tex
+                        Mex, baking, running, live music and going out on the lake.
+                    </p>
+                    <p>
+                        Putting all of these together, my favorite day would be, after running in the morning, to go out
+                        on the lake and wakesurf with great music playing, then to come home and make chips and guac for
+                        everyone. Another thing, objectively, I make the best guacamole and ~partially~ make the best
+                        chips in the world. First off, guac has to be chunky. You have to be able to visually see and
+                        feel in your mouth the tomatoes, onions and cilantro. However, you don't want to be able to see
+                        the serrano peppers--these must be chopped fine so that you get a little flavor in every bite.
+                        Personally, I’m a spicy food lover so I like to leave in a lot of the seeds. If I’m cooking for
+                        a big group though, there are most likely going to be weiners in the crowd who hate spiciness,
+                        so I’ll remove the seeds. However, these people don't know how strenuous it is to remove the
+                        seeds. While scraping them out, I almost always get the serrano chile oil in the crevices
+                        between my fingers, which lingers with a slight burning feeling for the next two days.
+                    </p>
+                    <p>
+                        So, the ingredients I use are ripe avocados, tomatoes with the juices squirted out, extra
+                        onions, finely chopped cilantro, serrao peppers (finely chopped with or without seeds) and salt.
+                        Lately, I have been persuaded to add lime, but I am extremely cautious due to the number of
+                        store-bought guacs I have tried that are quite literally swimming in lime juice. These brands
+                        are overcompensating on the acidity in order to combat the effects of oxygen on the avocados,
+                        and resultantly, they completely destroy the flavor. I cannot remember the name of the cookbook
+                        we get our measurements from, but it is the one in our house with tattered pages, extreme tomato
+                        juice damage and avocado stains. You will notice how no where in my ingredient list did I
+                        mention <i>sour cream</i> or <i>greek yogurt</i>. These do NOT belong in guacamole. Avocados are literal balls
+                        of creamy, healthy fat and there is ABSOLUTELY no need to be adding those.
+                    </p>
+                    <p>
+                        Now, in terms of the chips, if you want to have an amazing guacamole experience, you need to be
+                        scooping it up with tostada chips. In our house, tostada chips entails cutting up flour
+                        tortillas into triangles, frying those in a vat of oil, then making sure they have a generous
+                        sprinkle of salt before serving hot. I say that I only ~partially~ make these because I have no
+                        involvement in the actual tortilla making. I have to credit Central Market who quite literally
+                        make the tastiest, fluffiest, most velvety flour tortillas I have ever had. Central Market does
+                        all the work, we just add that extra infusion of fat and salt which takes ‘em to a whole ‘nother
+                        level. In case you haven’t realized, these chips served by guacamole made my way is my favorite
+                        meal.
+                    </p>
+                    <p>
+                        If I could have any superpower it would be animal shapeshifting because then you technically
+                        have all the superpowers. To become invisible, turn into a fly. To fly, turn into a bird. To run
+                        fast, turn into a cheetah. To hold your breath, turn into a fish. My favorite shows are Game of
+                        Thrones, Rick and Morty, Chef’s Table and Parks and Recreation. While I’m in Cape Town I really
+                        want to see some safari animals.
+
+                    </p>
+                    <p>
+
+                        Github Username: julietyz
+
+                        <h3 style="font-size: 1.5em">My Favorite Youtuber Cooking My Favorite Pasta</h3>
+                        <div class="responsive-vid">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xWYIyLNfbaA"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <section id="form">
+                            <form action="/action_page.php">
+                                <legend><b>What Do I Need To Do Before Leaving Cape Town?</b></legend>
+                                <input type="text" name="activity" placeholder="Activity">
+                                <input type="text" name="website" placeholder="Website">
+                                Have you done this activity before?
+                                <input type="checkbox" name="compleated" value="Yes"> Yes<br>
+                                <textarea name="msg" placeholder="Description of activity"></textarea>
+                                How long (including travel) is this activity?
+                                <input type="radio" name="time" value="short"> 1-2 Hours<br>
+                                <input type="radio" name="time" value="medium"> 3-4 Hours<br>
+                                <input type="radio" name="time" value="halfday"> Half day<br>
+                                <input type="radio" name="time" value="fullday"> Full day<br>
+                                <input type="radio" name="time" value="weekend"> Entire Weekend<br>
+                                <input type="submit" value="Submit">
+
+                            </form>
+                        </section>
+                </article>
+            </main>
+            <footer>
+            </footer>
+        </section>
+    </div>
+    <script type="text/javascript" src="javascript/index.js"></script>
+</body>
+
+</html>
+
+</html>
